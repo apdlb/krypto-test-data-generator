@@ -1,6 +1,6 @@
 {
   "name": "krypto-test-data-generator-test",
-  "version": "0.1.9",
+  "version": "0.1.21",
   "description": "Test data generator for swagger schemas and mocha validations",
   "main": "dist/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/apdlb/krypto-test-data-generator-test#readme",
   "dependencies": {
     "chance": "~1.0.0",
-    "json-schema-faker": "^0.2.15",
+    "json-schema-faker": "^0.5.0-rc15s",
     "json-schema-ref-parser": "^5.1.0",
     "lodash": "^4.7.0"
   },

@@ -43,8 +43,7 @@
         "address": { "type": "string", "nullable": true, "maxLength": 255, "description": "Address of the store" },
         "status": { "type": "string", "nullable": true, "maxLength": 10, "description": "Status of the store" },
         "latitude": { "type": "string", "nullable": true, "maxLength": 100, "pattern": "^[+-]?\\d+(\\.\\d+)?$", "description": "Latitude of the store" },
-        "longitude": { "type": "string", "nullable": true, "maxLength": 100, "pattern": "^[+-]?\\d+(\\.\\d+)?$", "description": "Longitude of the store" },
-        "page": { "type": "string", "description": "current page" }
+        "longitude": { "type": "string", "nullable": true, "maxLength": 100, "pattern": "^[+-]?\\d+(\\.\\d+)?$", "description": "Longitude of the store" }
       }
     },
     "SearchStores": {
