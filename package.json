@@ -1,6 +1,6 @@
 {
   "name": "krypto-test-data-generator-test",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "description": "Test data generator for swagger schemas and mocha validations",
   "main": "dist/index.js",
   "scripts": {
