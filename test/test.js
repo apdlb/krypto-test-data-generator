@@ -55,8 +55,8 @@ describe('Test', () => {
         // console.log('res-> ', schema);
         // console.log('res-> ', generate(schema));
         // console.log('res-> ', schema);
-        let result = generate(schema.paths['/commerces/stores/filter'].post.parameters[0].schema);
-        console.log('res-> ', util.inspect(result));
+        let result = generate(schema.paths['/transactions'].post.parameters[0].schema);
+        console.log('res-> ', util.inspect(result, false, null));
       })
       .catch(err => {
         console.error(err);
